@@ -1,0 +1,43 @@
+
+body{
+	overflow-x: hidden;
+}
+
+.carousel{
+	z-index: -999 !important;
+}
+.z-index-up{
+	/*position: absolute !important;*/
+	z-index: 999999 !important;
+}
+.pt-10{
+	padding: 5px 0 !important;
+}
+
+.mt-10{
+	margin-top: -10px;
+	/*z-index: -1;*/
+}
+
+.mt-100{
+	margin-top: -200px;
+	/*z-index: -1;*/
+}
+
+
+.mb-10{
+	margin-bottom: 20px
+}
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+	main{
+		margin-top: -200px !important;
+	}
+}
